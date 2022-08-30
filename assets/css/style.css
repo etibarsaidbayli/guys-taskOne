@@ -594,6 +594,12 @@ blockquote {
 
 /* post entries section */
 
+
+.post__entries {
+  padding: 70px 0;
+background-color: #ebf0f6;
+}
+
 .media__backgroundImg {
   background-size: cover;
   background-color: #000;
@@ -815,6 +821,10 @@ footer {
 
   .testimontal__section .section-title {
     margin-bottom: 60px !important;
+  }
+
+  .post__entries {
+    padding:30px 0;
   }
 }
 
