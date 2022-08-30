@@ -240,6 +240,7 @@ header {
   opacity: 0;
   z-index: 999999999999999999;
   transition: 0.5s all !important;
+  user-select: none;
 }
 
 .mobile__menu-show {
@@ -594,10 +595,9 @@ blockquote {
 
 /* post entries section */
 
-
 .post__entries {
   padding: 70px 0;
-background-color: #ebf0f6;
+  background-color: #ebf0f6;
 }
 
 .media__backgroundImg {
@@ -654,10 +654,6 @@ background-color: #ebf0f6;
   left: 10px;
   font-weight: bold;
   align-self: center;
-}
-
-.media__backgroundImg:hover .media__body {
-  background: red;
 }
 
 .media__entry:hover .label {
@@ -824,7 +820,7 @@ footer {
   }
 
   .post__entries {
-    padding:30px 0;
+    padding: 30px 0;
   }
 }
 
@@ -845,6 +841,3 @@ footer {
     width: 23%;
   }
 }
-
-
-
