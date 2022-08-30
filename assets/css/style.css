@@ -82,6 +82,10 @@ header {
   transition: 0.3s all;
 }
 
+.nav__nav-active {
+  color: #ff6363 !important;
+}
+
 .nav__nav li:hover > a {
   color: #ff6363;
 }
