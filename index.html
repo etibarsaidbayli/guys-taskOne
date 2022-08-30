@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aos link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/2e18f2b45c.js" crossorigin="anonymous"></script>
+    <!-- owl carousel link -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- My css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+
+<body data-aos-easing="slide" data-aos-duration="800" data-aos-delay="0">
+    <div class="mobile__menu">
+        <div class="mobile__menu-header">
+            <div class="mobile__menu-closeBtn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="mobile__menu-body">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li id="has-child" class="has-children">
+
+                        <a href="#">
+                            Dropdown
+                            <i class="fa-solid fa-angle-down"></i>
+
+
+                        </a>
+                        <ul class=" dropdown-ul1">
+                            <li>
+                                <a href="#">Menu One</a>
+                            </li>
+                            <li id="has-child2">
+                                <a href="#">Menu Two</a>
+                                <i class="fa-solid fa-angle-down"></i>
+                                <ul class="dropdown-ul2 ">
+                                    <li>
+                                        <a href="#">Sub Menu One</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sub Menu Two</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Sub Menu Three</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Menu Three</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Inner Page</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Free Templates</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="header__nav">
+                    <div class="logo">
+                        <a href="#">Easy</a>
+                    </div>
+                    <nav>
+                        <ul class="nav__nav">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Dropdown</a>
+                                <i class="fa-solid fa-angle-down"></i>
+                                <ul class="dropdown">
+                                    <li>
+                                        <a href="#">Menu One</a>
+                                    </li>
+                                    <li href="#" class="dropdown__children">
+                                        <a href="#">Menu Two</a>
+                                        <i class="fa-solid fa-angle-right"></i>
+                                        <ul class="dropdown">
+                                            <li>
+                                                <a href="#">Sub Menu One</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sub Menu Two</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sub Menu Three</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Menu Three</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Inner Page</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <button class="header__btn">
+                    <a href="#">Free Templates</a>
+                </button>
+                <div class="mobile-bar">
+                    <i class="fa-solid fa-bars"></i>
+
+                </div>
+            </div>
+            <div class="header__main">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-xl-5 col-lg-5 col-md-12">
+                        <div class="header__main-content">
+                            <h1 class="text-white font-weight-bold mb-4 header-main__h1" data-aos="fade-up"
+                                data-aos-delay="0">Get Paid Easily without Hassle
+                            </h1>
+                            <p class="text-white mb-4" data-aos="fade-up" data-aos-delay="100">Far far away, behind the
+                                word mountains, far from the countries
+                                Vokalia and Consonantia,
+                                there
+                                live the blind texts. Separated they live.</p>
+                            <form class="sign-up-form d-flex h-main__form" data-aos="fade-up" data-aos-delay="200">
+                                <input class="form-control" type="text" placeholder="Enter email adress">
+                                <button class="btn btn-primary header__content-btn">Sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-8">
+                        <figure class="h-main__photo" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/img/headerMainPic.png" alt="main-content-photo">
+                        </figure>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="slant"></div>
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="row section__row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 section__img-box" data-aos="fade-up"
+                        data-aos-delay="0" data-aos="fade-in">
+                        <img src="assets/img/puma.png" alt="">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 section__img-box" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <img src="assets/img/adobe.png" alt="">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 section__img-box" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <img src="assets/img/google.png" alt="">
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 section__img-box" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <img src="assets/img/paypal.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features__section">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="section__head" data-aos="fade-up" data-aos-delay="0">
+                        <strong class="section__head-strongTitle">AWESOME FEATURES</strong>
+                        <h2 class="section__header-title">Cool Features</h2>
+                        <p class="text-grey section__header-p">Far far away, behind the word mountains, far from the
+                            countries Vokalia and Consonantia</p>
+                    </div>
+                </div>
+                <div class="row awsm-features">
+                    <div class="text-center text-md-left col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                        <div class="sc-box">
+                            <div class="image-box">
+                                <img src="assets/img/section-box-pic-yellow.svg" alt="">
+                            </div>
+                            <h3 class="sc-box__title">Cash Collection</h3>
+                            <p class="sc-box__p">Manage your invoces from creation to payment. With Upflow you'll
+                                collect 100% of.</p>
+                        </div>
+
+                    </div>
+                    <div class="text-center text-md-left col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="sc-box">
+                            <div class="image-box">
+                                <img src="assets/img/section-box-pic-green.svg" alt="">
+                            </div>
+                            <h3 class="sc-box__title">Analytics</h3>
+                            <p class="sc-box__p">Manage your invoces from creation to payment. With Upflow you'll
+                                collect 100% of.</p>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="sc-box">
+                            <div class="image-box">
+                                <img src="assets/img/section-box-pic-pink.svg" alt="">
+                            </div>
+                            <h3 class="sc-box__title">Payment</h3>
+                            <p class="sc-box__p">Manage your invoces from creation to payment. With Upflow you'll
+                                collect 100% of.</p>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                        <div class="sc-box">
+                            <div class="image-box">
+                                <img src="assets/img/section-box-pic-green.svg" alt="">
+                            </div>
+                            <h3 class="sc-box__title">Cash Collection</h3>
+                            <p class="sc-box__p">Manage your invoces from creation to payment. With Upflow you'll
+                                collect 100% of.</p>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="sc-box">
+                            <div class="image-box">
+                                <img src="assets/img/section-box-pic-yellow.svg" alt="">
+                            </div>
+                            <h3 class="sc-box__title">Analytics</h3>
+                            <p class="sc-box__p">Manage your invoces from creation to payment. With Upflow you'll
+                                collect 100% of.</p>
+                        </div>
+                    </div>
+                    <div class="text-center text-md-left col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="sc-box">
+                            <div class="image-box">
+                                <img src="assets/img/section-box-pic-pink.svg" alt="">
+                            </div>
+                            <h3 class="sc-box__title">Payment</h3>
+                            <p class="sc-box__p">Manage your invoces from creation to payment. With Upflow you'll
+                                collect 100% of.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="testimontal__section">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-4 mb-5 section-title" data-aos="fade-up" data-aos-delay="0">
+                        <strong class="section__head-strongTitle">JOIN NOW</strong>
+                        <h2 class="section__header-title mb-4">
+                            Join More Than 90,000+ Amazing People Loves Our Product
+                        </h2>
+                        <p class="text-grey section__header-p mb-4">Far far away, behind the word mountains, far from
+                            the countries Vokalia and
+                            Consonantia, there live the blind texts.
+                        </p>
+                        <div>
+                            <button class="section__btn">
+                                <a href="#">Product Tour</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="item__box">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="photo me-3">
+                                            <img src="assets/img/xperson1.webp" alt="">
+                                        </div>
+                                        <div class="author">
+                                            <cite class="d-block mb-0">Kaila Woodland</cite>
+                                            <span>Owner, Greenland, Inc.</span>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts. Separated they live.”</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item__box">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="photo me-3">
+                                            <img src="assets/img/xperson2.webp" alt="">
+                                        </div>
+                                        <div class="author">
+                                            <cite class="d-block mb-0">Kaila Woodland</cite>
+                                            <span>Owner, Greenland, Inc.</span>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts. Separated they live.”</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item__box">
+                                    <div class="d-flex align-items-center mb-4">
+                                        <div class="photo me-3">
+                                            <img src="assets/img/xperson3.webp" alt="">
+                                        </div>
+                                        <div class="author">
+                                            <cite class="d-block mb-0">Kaila Woodland</cite>
+                                            <span>Owner, Greenland, Inc.</span>
+                                        </div>
+                                    </div>
+                                    <blockquote>
+                                        <p>“Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts. Separated they live.”</p>
+                                    </blockquote>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="features__lg">
+            <div class="container">
+                <div class="row section__feature-row align-items-center justify-content-between">
+                    <div class="col-lg-7 order-lg-2 mb-4 mb-lg-0 section__photo-box" data-aos="fade-up"
+                        data-aos-delay="0">
+                        <img src="assets/img/feature-section-photo.svg" alt="">
+                    </div>
+                    <div class="col-lg-4 section-title" data-aos="fade-up" data-aos-delay="100">
+                        <strong class="section__head-strongTitle">LIFE CHANGING APP</strong>
+                        <h2 class="section__header-title mb-4">
+                            Far far away, behind the word mountains
+                        </h2>
+                        <p class="text-grey section__header-p mb-4">Far far away, behind the word mountains, far from
+                            the countries Vokalia and Consonantia, there live the blind texts. Separated they live.
+                        </p>
+                        <div>
+                            <button class="section__btn">
+                                <a href="#">Get Started</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="features__lg">
+            <div class="container">
+                <div class="row section__feature-row align-items-center justify-content-between">
+                    <div class="col-lg-7  mb-4 mb-lg-0 section__photo-box" data-aos="fade-up" data-aos-delay="0">
+                        <img src="assets/img/section-order-photo.svg" alt="">
+                    </div>
+                    <div class="col-lg-4 section-title" data-aos="fade-up" data-aos-delay="100">
+                        <strong class="section__head-strongTitle">LIFE CHANGING APP</strong>
+                        <h2 class="section__header-title mb-4">
+                            Far far away, behind the word mountains
+                        </h2>
+                        <p class="text-grey section__header-p mb-4">Far far away, behind the word mountains, far from
+                            the countries Vokalia and Consonantia, there live the blind texts. Separated they live.
+                        </p>
+                        <div>
+                            <button class="section__btn">
+                                <a href="#">Get Started</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="pricing__section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="section__head text-center mb-5" data-aos="fade-up" data-aos-delay="0">
+                        <strong class="section__head-strongTitle">PRICING FOR EVERYONE</strong>
+                        <h2 class="section__header-title">Our Pricing</h2>
+                        <div class="swtich-plan">
+                            <div class="d-inline-flex align-items-center">
+                                <div class="period">Monthly</div>
+                                <a href="#" class="period-toggle js-period-toggle  "></a>
+                                <div class="period">
+                                    <span class="me-2">Yearly</span>
+                                    <span class="save-percent">Save 25%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+                            <div class="pricing-item">
+                                <h3 class="pricing-item-title">Personal</h3>
+                                <div class="pricing__item-p">
+                                    <p>Far far away, behind the word mountains</p>
+                                </div>
+                                <div class="period-change mb-4 d-block"">
+                                <div class=" price__wrap">
+                                    <div class="price">
+                                        <div class="price__child">
+                                            <div>$29</div>
+                                            <div>$299</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-inline-flex align-items-center text-center period-wrap">
+                                    <div class="d-inline-block me-1">Per</div>
+                                    <div class="d-block text-left period">
+                                        <div class="period__month">
+                                            <div>Month</div>
+                                            <div>Year</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="list-unstyled mb-4">
+                                    <li class="d-flex">
+                                        <span><i class="fa-solid fa-circle-check"></i></span>
+                                        <span>Far far away, behind the word mountains</span>
+                                    </li>
+                                    <li>
+                                        <span><i class="fa-solid fa-circle-check"></i></span>
+                                        <span>Far far away, behind the word mountains</span>
+                                    </li>
+                                </ul>
+                                <div>
+                                    <button class="section__btn">
+                                        <a href="#">Get Started</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pricing-item__active">
+                            <h3 class="pricing-item-title">Enterprise</h3>
+                            <div class="pricing__item-p">
+                                <p>Far far away, behind the word mountains</p>
+                            </div>
+                            <div class="period-change mb-4 d-block"">
+                                <div class=" price__wrap">
+                                <div class="price">
+                                    <div class="price__child">
+                                        <div>$49</div>
+                                        <div>$599</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-inline-flex align-items-center text-center period-wrap">
+                                <div class="d-inline-block me-1">Per</div>
+                                <div class="d-block text-left period">
+                                    <div class="period__month">
+                                        <div>Month</div>
+                                        <div>Year</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled mb-4">
+                                <li class="d-flex">
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Far far away, behind the word mountains</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa-solid fa-circle-check"></i></span>
+                                    <span>Far far away, behind the word mountains</span>
+                                </li>
+                            </ul>
+                            <div>
+                                <button class="section__btn">
+                                    <a href="#">Get Started</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-item">
+                        <h3 class="pricing-item-title">Enterprise</h3>
+                        <div class="pricing__item-p">
+                            <p>Far far away, behind the word mountains</p>
+                        </div>
+                        <div class="period-change mb-4 d-block"">
+                                <div class=" price__wrap">
+                            <div class="price">
+                                <div class="price__child">
+                                    <div>$99</div>
+                                    <div>$1,999</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-inline-flex align-items-center text-center period-wrap">
+                            <div class="d-inline-block me-1">Per</div>
+                            <div class="d-block text-left period">
+                                <div class="period__month">
+                                    <div>Month</div>
+                                    <div>Year</div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="list-unstyled mb-4">
+                            <li class="d-flex">
+                                <span><i class="fa-solid fa-circle-check"></i></span>
+                                <span>Far far away, behind the word mountains</span>
+                            </li>
+                            <li>
+                                <span><i class="fa-solid fa-circle-check"></i></span>
+                                <span>Far far away, behind the word mountains</span>
+                            </li>
+                        </ul>
+                        <div>
+                            <button class="section__btn">
+                                <a href="#">Get Started</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="post__entries">
+            <div class="container">
+                <div class="section__head text-center mb-5" data-aos="fade-up" data-aos-delay="0">
+                    <strong class="section__head-strongTitle">BLOG</strong>
+                    <h2 class="section__header-title">Blog Posts</h2>
+                </div>
+                <div class="row align-items-stretch">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                        <div class="media__entry h-100">
+                            <div style="background-image:url(./assets/img/blogpost1.webp);"
+                                class="media__backgroundImg"></div>
+                            <div class="bg-white media__body">
+                                <span class="date">May 14, 2020</span>
+                                <h3>Far far away, behind the word mountains</h3>
+                                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                                <a class="more d-flex align-items-center">
+                                    <span class="label">Read More</span>
+                                    <span class="arrow">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                        <div class="media__entry h-100">
+                            <div style="background-image:url(./assets/img/blogpost2.webp);"
+                                class="media__backgroundImg"></div>
+                            <div class="bg-white media__body">
+                                <span class="date">May 14, 2020</span>
+                                <h3>Far far away, behind the word mountains</h3>
+                                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                                <div class="more d-flex align-items-center">
+                                    <span class="label">Read More</span>
+                                    <span class="arrow">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                        <div class="media__entry h-100">
+                            <div style="background-image:url(./assets/img/blogpost3.webp)" class="media__backgroundImg">
+                            </div>
+                            <div class="bg-white media__body">
+                                <span class="date">May 14, 2020</span>
+                                <h3>Far far away, behind the word mountains</h3>
+                                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                                <div class="more d-flex align-items-center">
+                                    <span class="label">Read More</span>
+                                    <span class="arrow">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                        <div class="media__entry h-100">
+                            <div style="background-image: url(./assets/img/blogpost4.webp);"
+                                class="media__backgroundImg"></div>
+                            <div class="bg-white media__body">
+                                <span class="date">May 14, 2020</span>
+                                <h3>Far far away, behind the word mountains</h3>
+                                <p>Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                                <div class="more d-flex align-items-center">
+                                    <span class="label">Read More</span>
+                                    <span class="arrow">
+                                        <i class="fa-solid fa-angle-right"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4">
+                    <div class="widget">
+                        <h3>About</h3>
+                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts. Separated they live</p>
+                    </div>
+                    <div class="widget">
+                        <h3>Connect with us</h3>
+                        <ul class="social list-unstyled">
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-dribbble"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="widget">
+                                <h3>Navigations</h3>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="widget">
+                                <ul class="links list-unstyled">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Servicecs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Work</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Process</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Abous us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="widget">
+                                <ul class="links list-unstyled">
+                                    <li>
+                                        <a href="#">Press</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Support</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-4">
+                            <div class="widget">
+                                <ul class="links list-unstyled">
+                                    <li>
+                                        <a href="#">Privacy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Careers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Process</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About us</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center text-center copyright">
+                <div class="col md-8">
+                    <p class="copyright__p">Copyright ©2022 All rights reserved | This template is made with <i
+                            class="fa-solid fa-heart"></i> by <a target="_blank" href=""
+                            https://colorlib.com">Colorlib</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    < <!--AOS Js -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        < <!--Bootstrap Js -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                crossorigin="anonymous"></script>
+            < <!--Jquery Js -->
+                <script src="assets/app/jQuery.js"></script>
+                < <!--owl Carousel Js -->
+                    <script src="assets/app/owl.carousel.min.js"></script>
+                    < <!--Owl carouse Script Js -->
+                        <script src="assets/app/script.js"></script>
+                        < <!--my aos Js -->
+                            <script src="assets/app/aos.js"></script>
+                            < <!--My Js -->
+                                <script src="assets/app/index.js"></script>
+
+</body>
+
+</html>
