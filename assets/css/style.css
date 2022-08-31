@@ -239,19 +239,21 @@ header {
   height: 100vh;
   width: 280px;
   background: #fff;
-  transform: translateX(150%);
-  visibility: hidden;
-  opacity: 0;
+  /* transform: translateX(100%); */
+  /* visibility: hidden;
+  opacity: 0; */
+  display: none;
   z-index: 999999999999999999;
   transition: 0.5s all !important;
   user-select: none;
 }
 
 .mobile__menu-show {
-  transform: translateX(0);
-  visibility: visible !important;
+  /* transform: translateX(-20%); */
+  /* visibility: visible !important;
   opacity: 1 !important;
-  transition: 0.5s all !important;
+  transition: 0.5s all !important; */
+  display: block;
 }
 
 .mobile__menu-header {
