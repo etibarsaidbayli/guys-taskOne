@@ -419,6 +419,8 @@ header {
 .carousel__nav {
   margin-top: 20px;
   margin-left: 62px;
+  display: flex;
+  gap:15px;
 }
 
 .carousel__nav button {
