@@ -398,12 +398,41 @@ header {
   padding: 70px 0;
 }
 
-.owl-carousel {
+.carousel {
   padding: 40px 40px 70px 40px;
   background: #ffffff;
   border-radius: 7px;
-  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.slider {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider__line {
+  display: flex;
+  transition: 0.8s all ease;
+}
+
+.carousel__nav {
+  margin-top: 20px;
+  margin-left: 62px;
+}
+
+.carousel__nav button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #efefef;
+}
+
+.carousel__nav button:hover {
+  border-color: #000000;
+}
+
+.carousel__nav button i {
+  color: #000000;
 }
 
 .item__box {
