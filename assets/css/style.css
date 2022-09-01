@@ -196,6 +196,7 @@ header {
 
 .h-main__form {
   position: relative;
+  z-index: 999999999999;
 }
 .h-main__form input {
   padding: 25px 0 25px 25px;
@@ -420,7 +421,7 @@ header {
   margin-top: 20px;
   margin-left: 62px;
   display: flex;
-  gap:15px;
+  gap: 15px;
 }
 
 .carousel__nav button {
